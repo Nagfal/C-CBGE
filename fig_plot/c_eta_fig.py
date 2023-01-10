@@ -39,7 +39,7 @@ for rowx in range(nrows):
 
 data = np.array(data)
 # x = np.array(list(range(nrows)))+1
-x = np.linspace(0.0, 0.125, 25).tolist()
+x = np.linspace(0.0, 0.25, 25).tolist()
 y = list(range(ncols))
 X, Y = np.meshgrid(x, y)
 
@@ -59,7 +59,7 @@ line_sigma_x = x
 
 
 ax.plot(x,line_sigma_y2,'.-',color = 'red',label='$C=1.0$')
-ax.plot([0.1]*len(y_ticks),y_ticks,'+-',color = 'orange',label='$\eta\'=0.2$')
+ax.plot([0.2]*len(y_ticks),y_ticks,'+-',color = 'orange',label='$\eta\'=0.2$')
 
 
 plt.legend(prop={'family':'SimHei','size':24})
