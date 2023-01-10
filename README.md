@@ -21,7 +21,7 @@ er_constant_eta.py : run C-CBGE for the data in Fig.3
 
 er_constant_N_full.py : run C-CBGE for the data in Fig.4
 
-### DDUCB
+### DDUCB:
 codes for decentralized delayed upper confidence bound algorithm (DDUCB)
 
 env_DDUCB.py : contains code of the problem environment for DDUCB
