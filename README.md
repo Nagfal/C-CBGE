@@ -6,7 +6,7 @@ This repository contains  the code for the simulations of C-CBGE UCBGE BGE and D
 ***
 ## Code structure
 
-C-CBGE:
+### C-CBGE:
 code for confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE)
 
 env_CCBGE.py : contains code of the problem environment for C-CBGE
@@ -21,7 +21,7 @@ er_constant_eta.py : run C-CBGE for the data in Fig.3
 
 er_constant_N_full.py : run C-CBGE for the data in Fig.4
 
-DDUCB
+### DDUCB
 codes for decentralized delayed upper confidence bound algorithm (DDUCB)
 
 env_DDUCB.py : contains code of the problem environment for DDUCB
@@ -32,7 +32,7 @@ data_rw.py : contains code for writing the data in an .xls file
 
 learning_curve_DDUCB.py : run DDUCB for the data in Fig.1 and Fig.2
 
-UCBGE&BGE:
+### UCBGE & BGE:
 codes for unweighted collective Boltzmann-Gumbel exploration (UCBGE)
 
 agent_UCBGE.py : implementation of UCBGE and BGE
@@ -43,7 +43,8 @@ data_rw.py : contains code for writing the data in an .xls file
 
 learning_curve_UCBGE_BGE.py : run DDUCB for the data in Fig.1 and Fig.2
 
-fig_plot (contains the code and data to plot Fig. 1, Fig. 2, Fig. 3 and Fig. 4):
+### fig_plot:
+contains the code and data to plot Fig. 1, Fig. 2, Fig. 3 and Fig. 4
 
 comparision_figS1.py : plot the subfigures in Fig.1
 
