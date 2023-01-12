@@ -31,7 +31,7 @@ if __name__ == "__main__":
             repeat = 50
             for i in range(0,repeat):
                 sb = env.bandit(20,10,eta = 0.0, sigma= 1.0)
-                sb.reset( social_network_mode='stochastic', exploration_constant = c, sigma= 1.0, stochastic_network_prob = 0.2)
+                sb.reset( social_network_mode='stochastic', exploration_constant = c, sigma= 1.0, stochastic_network_prob = 0.2， sd = sdu)
                 
                 done = False
                 while not done:
