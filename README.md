@@ -1,7 +1,7 @@
-# Code for Multi-agent Bandit with Agent-Dependent Expected Rewards
+# Codes for Multi-agent Bandit with Agent-Dependent Expected Rewards
 
 ***
-This repository contains  the code for the simulations of C-CBGE UCBGE BGE and DDUCB
+This repository contains the codes for the simulations of C-CBGE UCBGE BGE and DDUCB
 
 
 C-CBGE : confidence-weighted collective Boltzmann-Gumbel exploration.
@@ -23,7 +23,7 @@ DDUCB : decentralized delayed upper confidence bound algorithm.
 ## Code structure
 
 ### C-CBGE:
-code for he algorithm called as confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
+codes for he algorithm called as confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 
 env_CCBGE.py : contains code of the bandit problem environment for C-CBGE
 
