@@ -30,7 +30,7 @@ if __name__ == "__main__":
             repeat = 10
             for i in range(0,repeat):
                 sb = env.bandit(int(n),10,eta = 0.0, sigma= 1.0)
-                sb.reset(eta = 0.5*(0.1)**2 , social_network_mode='full', exploration_constant = c, sigma= 1.0 , sd = -1)
+                sb.reset(eta = 0.5*(0.15)**2 , social_network_mode='full', exploration_constant = c, sigma= 1.0 , sd = -1)
                 done = False
                 while not done:
                     current_avg_reward, done = sb.round()
