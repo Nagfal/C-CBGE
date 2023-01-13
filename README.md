@@ -4,7 +4,8 @@
 This repository contains  the code for the simulations of C-CBGE UCBGE BGE and DDUCB
 
 C-CBGE is the acronym for confidence-weighted collective Boltzmann-Gumbel exploration.
-C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
+
+Confidence-weighted collective Boltzmann-Gumbel exploration is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 ***
 ## Code structure
 
