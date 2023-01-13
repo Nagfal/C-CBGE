@@ -3,13 +3,15 @@
 ***
 This repository contains  the code for the simulations of C-CBGE UCBGE BGE and DDUCB
 
+C-CBGE is the acronym for confidence-weighted collective Boltzmann-Gumbel exploration.
+C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 ***
 ## Code structure
 
 ### C-CBGE:
-code for confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
+code for he algorithm called as confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 
-env_CCBGE.py : contains code of the problem environment for C-CBGE
+env_CCBGE.py : contains code of the bandit problem environment for C-CBGE
 
 agent_CCBGE.py : implementation of C-CBGE
 
@@ -24,7 +26,7 @@ er_constant_N_full.py : run C-CBGE for the data in Fig.4
 ### DDUCB:
 codes for decentralized delayed upper confidence bound algorithm (DDUCB)
 
-env_DDUCB.py : contains code of the problem environment for DDUCB
+env_DDUCB.py : contains code of the bandit problem environment for DDUCB
 
 agent_DDUCB.py : implementation of DDUCB
 
@@ -37,14 +39,14 @@ codes for unweighted collective Boltzmann-Gumbel exploration (UCBGE)
 
 agent_UCBGE.py : implementation of UCBGE and BGE
 
-env_UCBGE_BGE.py : contains code of the problem environment for UCBGE and BGE
+env_UCBGE_BGE.py : contains code of the bandit problem environment for UCBGE and BGE
 
 data_rw.py : contains code for writing the data in an .xls file
 
 learning_curve_UCBGE_BGE.py : run DDUCB for the data in Fig.1 and Fig.2
 
 ### fig_plot:
-contains the code and data to plot Fig. 1, Fig. 2, Fig. 3 and Fig. 4
+contains the codes and data to plot Fig. 1, Fig. 2, Fig. 3 and Fig. 4
 
 comparision_figS1.py : plot the subfigures in Fig.1
 
