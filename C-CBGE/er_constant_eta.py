@@ -5,7 +5,7 @@
 # Created Date: 8/1/2023 
 # version ='1.1'
 # ---------------------------------------------------------------------------
-""" run the data for Fig. 3"""  
+""" run the data for C_CBGE under various exploration constant and difference"""  
 
 import env_CCBGE as env
 import numpy
@@ -19,19 +19,19 @@ if __name__ == "__main__":
     ##the list of exploration constants
     C_list= numpy.power(10,base_list).tolist()
 
-    ##the list of expected reward expectations
-    sdu_list = numpy.linspace(0.00, 0.125, 25).tolist()
+    ##the list of eta'
+    sdu_list = numpy.linspace(0.01, 0.25,25).tolist()
     
     # the file to record the data
-    dw = data_rw.data_writer('accu_regret')
+    dw = data_rw.data_writer('accu_regret_20_04')
     
     for sdu in sdu_list:
         for c in C_list:
             res = 0.0
-            repeat = 50
+            repeat = 10
             for i in range(0,repeat):
                 sb = env.bandit(20,10,eta = 0.0, sigma= 1.0)
-                sb.reset( social_network_mode='stochastic', exploration_constant = c, sigma= 1.0, stochastic_network_prob = 0.2， sd = sdu)
+                sb.reset( social_network_mode='stochastic', exploration_constant = c, sigma= 1.0, stochastic_network_prob = 0.1, sd= sdu/2)
                 
                 done = False
                 while not done:

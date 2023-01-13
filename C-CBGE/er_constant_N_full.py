@@ -5,7 +5,7 @@
 # Created Date: 8/1/2023 
 # version ='1.1'
 # ---------------------------------------------------------------------------
-""" run the data for Fig. 4"""  
+""" run the data for C-CBGE under various exploration constant and agent number"""  
 
 import env_CCBGE as env
 import numpy
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     for n in N_list:
         for c in C_list:
             res = 0.0
-            repeat = 20
+            repeat = 10
             for i in range(0,repeat):
                 sb = env.bandit(int(n),10,eta = 0.0, sigma= 1.0)
                 sb.reset(eta = 0.5*(0.1)**2 , social_network_mode='full', exploration_constant = c, sigma= 1.0 , sd = -1)
