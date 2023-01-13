@@ -23,7 +23,7 @@ DDUCB : decentralized delayed upper confidence bound algorithm.
 ## Code structure
 
 ### C-CBGE:
-codes for he algorithm called as confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
+codes for the algorithm called as confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 
 env_CCBGE.py : contains code of the bandit problem environment for C-CBGE
 
@@ -38,7 +38,7 @@ er_constant_eta.py : run C-CBGE for the data in Fig.3
 er_constant_N_full.py : run C-CBGE for the data in Fig.4
 
 ### DDUCB:
-codes for decentralized delayed upper confidence bound algorithm (DDUCB)
+codes for the algorithm called as decentralized delayed upper confidence bound algorithm (DDUCB)
 
 env_DDUCB.py : contains code of the bandit problem environment for DDUCB
 
@@ -49,7 +49,7 @@ data_rw.py : contains code for writing the data in an .xls file
 learning_curve_DDUCB.py : run DDUCB for the data in Fig.1 and Fig.2
 
 ### UCBGE & BGE:
-codes for unweighted collective Boltzmann-Gumbel exploration (UCBGE)
+codes for the algorithm called as unweighted collective Boltzmann-Gumbel exploration (UCBGE)
 
 agent_UCBGE.py : implementation of UCBGE and BGE
 
