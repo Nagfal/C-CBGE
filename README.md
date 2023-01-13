@@ -7,7 +7,7 @@ This repository contains  the code for the simulations of C-CBGE UCBGE BGE and D
 ## Code structure
 
 ### C-CBGE:
-code for confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE)
+code for confidence-weighted collective Boltzmann-Gumbel exploration (C-CBGE), C-CBGE is an Boltzmann exploration based method for agent-dependent multi-agent bandit problems.
 
 env_CCBGE.py : contains code of the problem environment for C-CBGE
 
